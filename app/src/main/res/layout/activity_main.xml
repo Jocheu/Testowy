@@ -7,26 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appBarLayout"
+    <CheckBox
+        android:id="@+id/checkBox11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.Testowy.AppBarOverlay">
-
-    </com.google.android.material.appbar.AppBarLayout>
-
-
-    <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="516dp"
-        android:ems="10"
-        android:hint="Twój wiek"
-        android:inputType="number"
+        android:layout_marginBottom="252dp"
+        android:text="Gry"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent" />
 
     <RadioGroup
@@ -51,36 +40,68 @@
             android:text="Mężczyzna" />
     </RadioGroup>
 
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CheckBox"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="276dp" />
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="243dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="512dp"
+        android:ems="10"
+        android:hint="Twój wiek"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/checkBox12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="341dp" />
+        android:layout_marginBottom="364dp"
+        android:text="Muzyka"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="176dp"
+        android:text="Zaakceptuj"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/checkBox13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="402dp" />
+        android:layout_marginBottom="420dp"
+        android:text="Sport"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Testowy.AppBarOverlay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </com.google.android.material.appbar.AppBarLayout>
 
     <CheckBox
-        android:id="@+id/checkBox6"
+        android:id="@+id/checkBox14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckBox"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="458dp" />
+        android:text="Turystyka"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="376dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
